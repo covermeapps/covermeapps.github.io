@@ -37,22 +37,6 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0];
-	this.isSingleFrame = false;
-	// timeline functions:
-	this.frame_0 = function() {
-		if(this.isSingleFrame) {
-			return;
-		}
-		if(this.totalFrames == 1) {
-			this.isSingleFrame = true;
-		}
-		this.stop()
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
-
 	// logo
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#0A743B").s().p("AhFBaQgegfAAg7QAAg3AdghQAcggA2AAQAZAAAUAHQAUAIAMAPQALAOAAAXQAAAhgbARQgaARgtAAIglgBIgIgBQACAWAGAQQAJAUAPAJQAPAJAVAAQAaAAAPgKQASgKAGgQQAFADACAFQACAFgFAMQgJAWgWALQgWALgeAAQgzAAgdgfgAgdhMQgOAZAAAsIASACQANAAALgCQAMgCAKgGQAKgGAHgLQAGgLAAgTQAAgQgFgIQgFgJgIgDQgHgDgJAAQgYAAgPAZg");
