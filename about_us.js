@@ -3728,7 +3728,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-1,-1,799.3,752);
 
 
-(lib.about_us_button = function(mode,startPosition,loop,reversed) {
+(lib.about_us_button_on = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -3906,9 +3906,9 @@ if (reversed == null) { reversed = false; }
 	this.instance_2 = new lib.about_us_text("synched",0);
 	this.instance_2.setTransform(724.8,630.75,1,1,0,0,0,398.6,375);
 
-	this.instance_3 = new lib.about_us_button();
+	this.instance_3 = new lib.about_us_button_on();
 	this.instance_3.setTransform(656.05,105.35,1,1,0,0,0,56.1,76);
-	new cjs.ButtonHelper(this.instance_3, 0, 1, 2, false, new lib.about_us_button(), 3);
+	new cjs.ButtonHelper(this.instance_3, 0, 1, 2, false, new lib.about_us_button_on(), 3);
 
 	this.instance_4 = new lib.our_app_button();
 	this.instance_4.setTransform(488.05,105.35,1,1,0,0,0,56.1,76);
