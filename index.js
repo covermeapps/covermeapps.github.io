@@ -43,9 +43,9 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 // library properties:
 lib.properties = {
-	id: 'FC33393C26E8154B8979E26276608384',
-	width: 1024,
-	height: 768,
+	id: 'DB5C3F04FCF39742969442569B501BA9',
+	width: 800,
+	height: 600,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
@@ -86,7 +86,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['FC33393C26E8154B8979E26276608384'] = {
+an.compositions['DB5C3F04FCF39742969442569B501BA9'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
