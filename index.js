@@ -4674,7 +4674,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_37.graphics.f("#000000").s().p("AgXAbQgIgKAAgRQAAgQAIgKQAJgJAOAAQAPAAAJAJQAIAKAAAQQAAARgIAKQgJAJgPAAQgOAAgJgJgAgLgWQgDAIAAAOQAAAPADAIQAEAHAHAAQAIAAAEgHQADgIAAgPQAAgOgDgIQgEgIgIAAQgHAAgEAIg");
 	this.shape_37.setTransform(33.675,136.975);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).to({state:[{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).to({state:[{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4866,7 +4866,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_22.graphics.f("#000000").s().p("AgUAbQgIgKAAgRQAAgQAJgKQAIgJAPAAQANAAAFAFQAGAFAAAHQAAAFgDADQgDADgFAAIgFgBIgDgCIADgEIABgGQAAgDgCgDIgDgDIgFgBQgGAAgEAHQgEAIAAANQAAAKACAGQADAGAEADQAEADAGAAQAFAAAEgBIAGgFQADgDABgEQAAAAAAABQABAAAAAAQAAAAAAABQABAAAAABQABACgBADQgCAHgHAEQgHAEgJAAQgPAAgJgJg");
 	this.shape_22.setTransform(27.375,136.975);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).to({state:[{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).to({state:[{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4966,7 +4966,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_19.graphics.f("#000000").s().p("AANAfQgDgEgBgJIADgKIgDgBIAAAIIAAADIgCAFQgFAFgFAEQgGAEgHAAQgIAAgFgEQgFgFAAgHQAAgGAEgFQADgDAFgEQAFgCAGgBIALgCIAIgBIAAgDQAAgLgDgGQgDgGgGABIgFABIgEACQgCADAAAEIABAFQABADADABIgDADIgFAAQgGABgDgEQgEgEAAgEQAAgJAIgEQAIgEAMAAQAOAAAHAHQAGAGAAAQIAAAXQAAAHAFAAIACAAIACgCIABADIABACQAAAEgEADQgDACgFAAQgHAAgDgFgAgCABIgFADQgEACgDACQgDAEAAAEQAAAEACADQACADAFAAQADgBADgBQACgCADgEIAEgIQACgFAAgFIgGAAgAAJASIAAAAgAAJASIAAgDIAAgIIADABIgDAKIAAAAg");
 	this.shape_19.setTransform(32.925,136.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).to({state:[{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).to({state:[{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4986,6 +4986,55 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	this.actionFrames = [0];
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop()
+		this.contact_us_button.addEventListener("click", fl_MouseClickHandler.bind(this));
+		
+		function fl_MouseClickHandler()
+		{
+			// Start your custom code
+			// This example code displays the words "Mouse clicked" in the Output panel.
+			//alert("Mouse clicked");
+			// End your custom code
+			
+			window.open('https://covermeapps.github.io/contact_us.html', '_blank');
+		}
+		this.our_app_button.addEventListener("click", f2_MouseClickHandler.bind(this));
+		
+		function f2_MouseClickHandler()
+		{
+			// Start your custom code
+			// This example code displays the words "Mouse clicked" in the Output panel.
+			//alert("Mouse clicked");
+			// End your custom code
+			
+			window.open('https://covermeapps.github.io', '_blank');
+		}
+		this.about_us_button.addEventListener("click", f3_MouseClickHandler.bind(this));
+		
+		function f3_MouseClickHandler()
+		{
+			// Start your custom code
+			// This example code displays the words "Mouse clicked" in the Output panel.
+			//alert("Mouse clicked");
+			// End your custom code
+			
+			window.open('https://covermeapps.github.io/about_us.html', '_blank');
+		}
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
 	// logo
 	this.instance = new lib.logo("synched",0);
 	this.instance.setTransform(120.45,134,1,1,0,0,0,87.5,98.1);
@@ -5001,21 +5050,21 @@ if (reversed == null) { reversed = false; }
 	// contact_us_button
 	this.instance_2 = new lib.contact_us_button();
 	this.instance_2.setTransform(820.75,105.35,1,1,0,0,0,56.1,76);
-	new cjs.ButtonHelper(this.instance_2, 0, 1, 1);
+	new cjs.ButtonHelper(this.instance_2, 0, 1, 2, false, new lib.contact_us_button(), 3);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
 
 	// our_app_button
 	this.instance_3 = new lib.our_app_button();
 	this.instance_3.setTransform(493.2,105.35,1,1,0,0,0,56.1,76);
-	new cjs.ButtonHelper(this.instance_3, 0, 1, 1);
+	new cjs.ButtonHelper(this.instance_3, 0, 1, 2, false, new lib.our_app_button(), 3);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
 	// about_us_button
 	this.instance_4 = new lib.about_us_button();
-	this.instance_4.setTransform(656.05,105.35,1,1,0,0,0,56.1,76);
-	new cjs.ButtonHelper(this.instance_4, 0, 1, 1);
+	this.instance_4.setTransform(599.95,29.35);
+	new cjs.ButtonHelper(this.instance_4, 0, 1, 2, false, new lib.about_us_button(), 3);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
