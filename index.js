@@ -8752,7 +8752,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {our_app:0,about_us:1,contact_us:2};
+	props.labels = {};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -8760,48 +8760,25 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [0,1,2];
 	// timeline functions:
 	this.frame_0 = function() {
-		var _this = this;
-		/*
-		Moves the playhead to the specified frame label in the timeline and stops the movie.
-		Can be used on the main timeline or on movie clip timelines.
-		*/
-		_this.gotoAndStop('our_app');
-		var _this = this;
-		/*
-		Moves the playhead to the specified frame label in the timeline and stops the movie.
-		Can be used on the main timeline or on movie clip timelines.
-		*/
-		_this.gotoAndStop('contact_us');
-		on_our_app.addEventListener("click", function(event) {
-		    // Your code here (e.g., go to a different frame or URL)
-		    
-				var _this = this;
-				_this.gotoAndStop('about_us');
-			
-			
-		});
-		var _this = this;
-		/*
-		Moves the playhead to the specified frame label in the timeline and stops the movie.
-		Can be used on the main timeline or on movie clip timelines.
-		*/
-		_this.gotoAndStop('about_us');
+		stop();
+		off_contact_us.addEventListener(MouseEvent.CLICK, goToFrame2);
+		function goToFrame2(event:MouseEvent):void {
+		    gotoAndStop(3); // Replace 2 with the frame you want to navigate to
+		}
+		on_our_app.addEventListener(MouseEvent.CLICK, goToFrame2);
+		function goToFrame2(event:MouseEvent):void {
+		    gotoAndStop(1); // Replace 2 with the frame you want to navigate to
+		}
+		off_about_us.addEventListener(MouseEvent.CLICK, goToFrame2);
+		function goToFrame2(event:MouseEvent):void {
+		    gotoAndStop(2); // Replace 2 with the frame you want to navigate to
+		}
 	}
 	this.frame_1 = function() {
-		var _this = this;
-		/*
-		Moves the playhead to the specified frame label in the timeline and stops the movie.
-		Can be used on the main timeline or on movie clip timelines.
-		*/
-		_this.gotoAndStop('about_us');
+		stop();
 	}
 	this.frame_2 = function() {
-		var _this = this;
-		/*
-		Moves the playhead to the specified frame label in the timeline and stops the movie.
-		Can be used on the main timeline or on movie clip timelines.
-		*/
-		_this.gotoAndStop('contact_us');
+		stop();
 	}
 
 	// actions tween:
