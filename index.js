@@ -8796,15 +8796,21 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0];
+	this.actionFrames = [0,1,2];
 	// timeline functions:
 	this.frame_0 = function() {
-		
+		_this.gotoAndStop(0);
 		_this.index.gotoAndStop('contact_us');
+	}
+	this.frame_1 = function() {
+		_this.gotoAndStop(1);
+	}
+	this.frame_2 = function() {
+		_this.gotoAndStop(2);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// logo
 	this.instance = new lib.logo("synched",0);
