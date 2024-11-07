@@ -8772,12 +8772,10 @@ if (reversed == null) { reversed = false; }
 		Can be used on the main timeline or on movie clip timelines.
 		*/
 		_this.gotoAndStop('contact_us');
-		var _this = this;
-		/*
-		Moves the playhead to the specified frame label in the timeline and stops the movie.
-		Can be used on the main timeline or on movie clip timelines.
-		*/
-		_this.gotoAndStop('our_app');
+		on_our_app.addEventListener("click", function(event) {
+		    // Your code here (e.g., go to a different frame or URL)
+		    alert("Button clicked!");
+		});
 		var _this = this;
 		/*
 		Moves the playhead to the specified frame label in the timeline and stops the movie.
