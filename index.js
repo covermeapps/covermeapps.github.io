@@ -4995,9 +4995,7 @@ if (reversed == null) { reversed = false; }
 		if(this.totalFrames == 1) {
 			this.isSingleFrame = true;
 		}
-		var _this = this;
-		
-		_this.index_our_app_button.on('click', function()
+		this.index_our_app_button.on('click', function()
 		{
 		    window.open('http://www.adobe.com', '_self');
 		});
