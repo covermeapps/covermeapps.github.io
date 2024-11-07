@@ -5002,6 +5002,7 @@ if (reversed == null) { reversed = false; }
 			
 			window.open('https://covermeapps.github.io/contact_us.html', '_blank');
 		}
+		
 		this.index_our_app_button.addEventListener("click", f1_MouseClickHandler.bind(this));
 		
 		function f1_MouseClickHandler()
@@ -5013,6 +5014,7 @@ if (reversed == null) { reversed = false; }
 			
 			window.open('https://covermeapps.github.io/', '_blank');
 		}
+		
 		this.about_us_button.addEventListener("click", f2_MouseClickHandler.bind(this));
 		
 		function f2_MouseClickHandler()
