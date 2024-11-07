@@ -8774,7 +8774,7 @@ if (reversed == null) { reversed = false; }
 		_this.gotoAndStop('contact_us');
 		on_our_app.addEventListener("click", function(event) {
 		    // Your code here (e.g., go to a different frame or URL)
-		    alert("Button clicked!");
+		    console.log("Button clicked!");
 		});
 		var _this = this;
 		/*
