@@ -4991,41 +4991,12 @@ if (reversed == null) { reversed = false; }
 		if(this.totalFrames == 1) {
 			this.isSingleFrame = true;
 		}
-		this.contact_us_button.addEventListener("click", f3_MouseClickHandler.bind(this));
+		var _this = this;
 		
-		function f3_MouseClickHandler()
+		_this.index_our_app_button.on('click', function()
 		{
-			// Start your custom code
-			// This example code displays the words "Mouse clicked" in the Output panel.
-			//alert("Mouse clicked");
-			// End your custom code
-			
-			window.open('https://www.covermeapps.github.io/contact_us.html', '_blank');
-		}
-		
-		this.index_our_app_button.addEventListener("click", f1_MouseClickHandler.bind(this));
-		
-		function f1_MouseClickHandler()
-		{
-			// Start your custom code
-			// This example code displays the words "Mouse clicked" in the Output panel.
-			//alert("Mouse clicked");
-			// End your custom code
-			
-			window.open('https://www.covermeapps.github.io/', '_blank');
-		}
-		
-		this.about_us_button.addEventListener("click", f2_MouseClickHandler.bind(this));
-		
-		function f2_MouseClickHandler()
-		{
-			// Start your custom code
-			// This example code displays the words "Mouse clicked" in the Output panel.
-			//alert("Mouse clicked");
-			// End your custom code
-			
-			window.open('https://www.covermeapps.github.io/about_us.html', '_blank');
-		}
+		    window.open('http://www.adobe.com', '_self');
+		});
 	}
 
 	// actions tween:
