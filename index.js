@@ -5000,7 +5000,7 @@ if (reversed == null) { reversed = false; }
 			//alert("Mouse clicked");
 			// End your custom code
 			
-			window.open('https://covermeapps.github.io/contact_us.html', '_blank');
+			window.open('https://www.covermeapps.github.io/contact_us.html', '_blank');
 		}
 		
 		this.index_our_app_button.addEventListener("click", f1_MouseClickHandler.bind(this));
@@ -5012,7 +5012,7 @@ if (reversed == null) { reversed = false; }
 			//alert("Mouse clicked");
 			// End your custom code
 			
-			window.open('https://covermeapps.github.io/', '_blank');
+			window.open('https://www.covermeapps.github.io/', '_blank');
 		}
 		
 		this.about_us_button.addEventListener("click", f2_MouseClickHandler.bind(this));
@@ -5024,7 +5024,7 @@ if (reversed == null) { reversed = false; }
 			//alert("Mouse clicked");
 			// End your custom code
 			
-			window.open('https://covermeapps.github.io/about_us.html', '_blank');
+			window.open('https://www.covermeapps.github.io/about_us.html', '_blank');
 		}
 	}
 
