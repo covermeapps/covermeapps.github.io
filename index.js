@@ -8799,7 +8799,7 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [0];
 	// timeline functions:
 	this.frame_0 = function() {
-		_this.gotoAndStop(0);
+		
 		_this.index.gotoAndStop('contact_us');
 	}
 
