@@ -9798,10 +9798,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Image.png", id:"Image"},
-		{src:"images/Image_1.png", id:"Image_1"},
-		{src:"images/Image_2.png", id:"Image_2"},
-		{src:"images/Image_0.png", id:"Image_0"}
+		{src:"Image.png", id:"Image"},
+		{src:"Image_1.png", id:"Image_1"},
+		{src:"Image_2.png", id:"Image_2"},
+		{src:"Image_0.png", id:"Image_0"}
 	],
 	preloads: []
 };
